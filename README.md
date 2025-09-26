@@ -25,7 +25,8 @@
   Each **DB Storage Engine Instance** corresponds to a database created with `CREATE DATABASE`.  
   Metadata is managed by the **Catalog Manager**, **Index Manager**, and **Record Manager**.  
 
-  ![Screenshot 2025-09-25 at 21.39.14](/Users/mayitong/Library/Application Support/typora-user-images/Screenshot 2025-09-25 at 21.39.14.png)2.2 Modules Overview  
+ 
+  2.2 Modules Overview  
 
   - **Disk Manager**: Manages DB File, page allocation/recycling, read/write operations.  
   - **Buffer Pool Manager**: Caches pages, replacement (LRU), dirty/pin states.  
