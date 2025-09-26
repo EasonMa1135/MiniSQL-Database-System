@@ -25,7 +25,7 @@
   Each **DB Storage Engine Instance** corresponds to a database created with `CREATE DATABASE`.  
   Metadata is managed by the **Catalog Manager**, **Index Manager**, and **Record Manager**.  
 
- 
+ ![System Diagram](./System.png)
   2.2 Modules Overview  
 
   - **Disk Manager**: Manages DB File, page allocation/recycling, read/write operations.  
